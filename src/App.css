@@ -1,0 +1,33 @@
+.main-container
+{
+  padding: 100px 300px;
+  text-align: center;
+}
+
+@media (max-width: 1024px)
+{
+  .main-container
+  {
+    padding: 100px 200px;
+  }
+  
+}
+
+@media (max-width: 768px)
+{
+  .main-container
+  {
+    padding: 50px 100px;
+  }
+  
+}
+
+
+@media (max-width: 425px)
+{
+  .main-container
+  {
+    padding: 20px 30px;
+  }
+  
+}

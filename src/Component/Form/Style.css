@@ -1,0 +1,62 @@
+.form-container
+{
+    padding: 50px;
+}
+
+.form-input-field
+{
+    width: calc(100% - 50px);
+    border: 1px solid black;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.form-button
+{
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-button:hover
+{
+    background-color: #45a049;
+}
+
+.form-button-info
+{
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-button-info:hover
+{
+    background-color: #007a9b;
+}
+
+.form-button-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-right
+{
+    justify-content: end;
+}
+
+.error
+{
+    border: 1px solid red;
+}
