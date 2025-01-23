@@ -1,8 +1,12 @@
 import './Style.css'
 
-const Wizard = ({activeStep}) => {
+interface WizardProps {
+    activeStep: number;
+}
 
-    const FetchWizardUIClass = (step) => {
+const Wizard = ({activeStep}: WizardProps) => {
+
+    const FetchWizardUIClass = (step: number) => {
         if(activeStep === step){
             return ""
         }
@@ -16,7 +20,7 @@ const Wizard = ({activeStep}) => {
         }
     }
 
-    const FetchWizardTextUIClass = (step) => {
+    const FetchWizardTextUIClass = (step: number) => {
         if(activeStep === step){
             return "wizard-progress-text"
         }
